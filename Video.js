@@ -41,6 +41,7 @@ function Click(value) { console.log(value);
         Ready=true;
         Gameplay.volume=0.1;
     }
+    //hola//
     else if(value==VideoActivo) {
         if(Ready)  {
             Ready=false;
