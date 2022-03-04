@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>GameBoy</title>
+</head>
+<body>
+    <div class="Margen">
+        <div class="TopLine"></div>
+            <div class="LineHorizontal"></div>
+            <div class="LineVertical1"></div>
+            <div class="LineVertical2"></div>
+            <div class="Box1"></div>
+            <div class="Box2"></div>
+        <span class="AA">A</span>
+        <span class="BB">B</span>
+        <div class="Gameboy">
+            <!-- <div >
+                <!-- off - on -->
+            <!-- </div> -->
+            <div class="Display">
+                <div class="Line red"></div>            <div class="Line red2"></div>
+                <div class="Line blue"></div>
+                <div class="Line blue2"></div>
+                <span>DOT MATRIX WITH STEREO SOUND</span>
+                <DIV class="Battery point">
+                </DIV>
+                <span class="BT">BATTERY</span>
+                <div class="ButtonRed"></div>
+                <div id="Led"class="Led">
+                    <div id="Selection"class="Menu">
+                        <h1> 
+                            Selection <br/>B o A
+                        </h1>
+                    </div>
+                    <div class="BoxVideo">
+                        <video id="Gameplay"></video>
+                    </div>
+                </div>
+            </div>
+            <div class="Nintendos">
+                <span class="Nintendo">Nintendo</span>
+                <span class="Game Boy">Game Boy</span>
+            </div>
+            <div class="D-pad">
+                <div class="o"></div>
+                    <div class="Cruceta"></div>
+                        <img class="up" src="./up.png" alt="up"onclick="Volumen(+0.1)">
+                        <img class="right" src="./right.png" alt="right"onclick="seek(+1)">
+                        <img class="down" src="./down.png" alt="down" onclick="Volumen(-0.1)">
+                        <img class="left" src="./left.png" alt="left"onclick="seek(-1)">
+                        <img class="int" src="./int.png" alt="int">
+            </div>
+            <div class="Buttons">
+                <div class="Button B" onclick="Click(0)"></div>
+                <div class="Button A" onclick="Click(1)"></div>
+            </div>
+            <div class="StartAndSelect">
+                <div class="SelectFondo"></div>
+                <div class="ButtonSelect"></div>
+                <div class="Select">
+                    <span>Select</span>
+                </div>
+                <div class="StartFondo"></div>
+                <div class="ButtonStart" onclick="Start()"></div>
+                <div class="Start">
+                    <span>Start</span>
+                </div>
+        <div class="SoundBoxes">
+            <div class="LineBox1">
+                <div class="ExitSound"></div>
+                <div class="SBox1">
+                </div>
+            </div>
+            <div class="LineBox2">
+                <div class="ExitSound2"></div>
+                <div class="SBox2"></div>
+            </div>
+            <div class="LineBox3">
+                <div class="ExitSound3"></div>
+                <div class="SBox3"></div>
+            </div>
+            <div class="LineBox4">
+                <div class="ExitSound4"></div>
+                <div class="SBox4"></div>
+            </div>
+            <div class="LineBox5">
+                <div class="ExitSound5"></div>
+                <div class="SBox5"></div>
+            </div>
+            <div class="LineBox6">
+                <div class="SBox6"></div>
+            </div>
+        </div>
+            </div>
+            <div class="Sound">
+
+            </div>
+            <div class="Phones">
+
+            </div>
+        </div>
+    </div>  
+    <script src="./Video.js"></script> 
+</body>
+</html>
