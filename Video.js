@@ -9,7 +9,7 @@
 //     PlayGame.Gameplay1.play();
 //     document.getElementById("Mario").classList.add("PlayOpacity");
 //     // document.getElementById("Tetris").classList.add("PlayOpacity");
-// } //la Creo una funcion (on) va a habilitar la clase "PlayOpacity"//
+// } //la Creo una funcion (on) va a habilitar la clase "PlayOpacity"// 
 let Menu=document.getElementById("Selection"),
     Gameplay=document.getElementById("Gameplay"),
     Videos=[
